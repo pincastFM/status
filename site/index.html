@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pincast status</title>
+<meta name="description" content="Whether each Pincast service is answering, checked every 5 minutes.">
+<link rel="stylesheet" href="page.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>Pincast status</h1>
+    <a href="https://docs.pincast.fm">Docs</a>
+  </header>
+  <div id="summary" class="summary" role="status">Reading the latest checks.</div>
+  <div id="stale" class="stale" hidden></div>
+  <p id="meta" class="meta"></p>
+  <ul id="services" class="services" aria-label="Services"></ul>
+  <p class="legend">Each bar is one check, newest on the right, over the last 4 hours.</p>
+  <footer>
+    <p>A check runs every 5 minutes from GitHub Actions, outside our own servers. Times are in your time zone.</p>
+    <p>The checks and this page are public at <a href="https://github.com/pincastFM/status">github.com/pincastFM/status</a>.</p>
+  </footer>
+</main>
+<script src="page.js"></script>
+</body>
+</html>

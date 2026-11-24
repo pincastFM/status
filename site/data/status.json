@@ -1,0 +1,8 @@
+{
+ "version": 1,
+ "generatedAt": null,
+ "intervalMinutes": 5,
+ "staleAfterMinutes": 20,
+ "checks": [],
+ "history": []
+}
