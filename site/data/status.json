@@ -1,8 +1,118 @@
 {
  "version": 1,
- "generatedAt": null,
+ "generatedAt": "2026-11-25T00:35:24.059Z",
  "intervalMinutes": 5,
  "staleAfterMinutes": 20,
- "checks": [],
- "history": []
+ "checks": [
+  {
+   "id": "apps",
+   "name": "Public list of apps",
+   "live": true,
+   "every": "run",
+   "status": "up",
+   "httpStatus": 200,
+   "ms": 498,
+   "detail": "Answering",
+   "checkedAt": "2026-11-25T00:35:23.590Z"
+  },
+  {
+   "id": "test-read",
+   "name": "API read with a test key",
+   "live": true,
+   "every": "run",
+   "status": "not_set",
+   "detail": "PINCAST_TEST_KEY is not set",
+   "checkedAt": "2026-11-25T00:35:23.114Z"
+  },
+  {
+   "id": "id",
+   "name": "Sign-in server (id.pincast.fm)",
+   "live": true,
+   "every": "run",
+   "status": "up",
+   "httpStatus": 200,
+   "ms": 177,
+   "detail": "Answering",
+   "checkedAt": "2026-11-25T00:35:23.291Z"
+  },
+  {
+   "id": "docs",
+   "name": "Docs (docs.pincast.fm)",
+   "live": true,
+   "every": "run",
+   "status": "up",
+   "httpStatus": 200,
+   "ms": 944,
+   "detail": "Answering",
+   "checkedAt": "2026-11-25T00:35:24.059Z"
+  },
+  {
+   "id": "signin-clients",
+   "name": "Sign-in setup for apps",
+   "live": true,
+   "every": "run",
+   "status": "up",
+   "httpStatus": 401,
+   "ms": 372,
+   "detail": "Answering",
+   "checkedAt": "2026-11-25T00:35:23.488Z"
+  },
+  {
+   "id": "dashboard",
+   "name": "Dashboard sign-in page",
+   "live": true,
+   "every": "run",
+   "status": "up",
+   "httpStatus": 302,
+   "ms": 585,
+   "detail": "Answering",
+   "checkedAt": "2026-11-25T00:35:23.701Z"
+  },
+  {
+   "id": "mcp",
+   "name": "MCP server",
+   "live": false,
+   "every": "run",
+   "status": "down",
+   "detail": "The address was not found",
+   "ms": 368,
+   "checkedAt": "2026-11-25T00:35:23.485Z"
+  },
+  {
+   "id": "registry",
+   "name": "MCP Registry listing",
+   "live": false,
+   "every": "day",
+   "status": "down",
+   "httpStatus": 200,
+   "ms": 439,
+   "detail": "Not listed",
+   "checkedAt": "2026-11-25T00:35:23.557Z"
+  },
+  {
+   "id": "webhook-lag",
+   "name": "Webhook delivery",
+   "live": false,
+   "every": "run",
+   "status": "disabled",
+   "detail": "Starts when this service goes live",
+   "checkedAt": null
+  }
+ ],
+ "history": [
+  {
+   "at": "2026-11-25T00:35:24.059Z",
+   "s": {
+    "apps": "u",
+    "test-read": "n",
+    "id": "u",
+    "docs": "u",
+    "signin-clients": "u",
+    "dashboard": "u",
+    "mcp": "d",
+    "registry": "d",
+    "webhook-lag": "x"
+   }
+  }
+ ]
 }
