@@ -3,6 +3,7 @@ name: Status checks
 on:
   schedule:
     # Every 5 minutes, off the hour marks: GitHub delays scheduled runs most at the top of the hour.
+    # A change to this file registers the schedule again if GitHub stops firing it.
     - cron: '2-59/5 * * * *'
   workflow_dispatch:
     inputs:
