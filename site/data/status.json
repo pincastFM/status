@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-26T08:23:53.627Z",
+ "generatedAt": "2026-11-26T08:28:44.618Z",
  "intervalMinutes": 5,
  "staleAfterMinutes": 20,
  "checks": [
@@ -11,9 +11,9 @@
    "every": "run",
    "status": "up",
    "httpStatus": 200,
-   "ms": 124,
+   "ms": 447,
    "detail": "Answering",
-   "checkedAt": "2026-11-26T08:23:53.269Z"
+   "checkedAt": "2026-11-26T08:28:43.953Z"
   },
   {
    "id": "test-read",
@@ -22,9 +22,9 @@
    "every": "run",
    "status": "up",
    "httpStatus": 200,
-   "ms": 256,
+   "ms": 523,
    "detail": "Answering",
-   "checkedAt": "2026-11-26T08:23:53.426Z"
+   "checkedAt": "2026-11-26T08:28:44.062Z"
   },
   {
    "id": "id",
@@ -33,9 +33,9 @@
    "every": "run",
    "status": "up",
    "httpStatus": 200,
-   "ms": 348,
+   "ms": 478,
    "detail": "Answering",
-   "checkedAt": "2026-11-26T08:23:53.518Z"
+   "checkedAt": "2026-11-26T08:28:44.017Z"
   },
   {
    "id": "docs",
@@ -44,9 +44,9 @@
    "every": "run",
    "status": "up",
    "httpStatus": 200,
-   "ms": 455,
+   "ms": 1078,
    "detail": "Answering",
-   "checkedAt": "2026-11-26T08:23:53.627Z"
+   "checkedAt": "2026-11-26T08:28:44.618Z"
   },
   {
    "id": "signin-clients",
@@ -55,9 +55,9 @@
    "every": "run",
    "status": "up",
    "httpStatus": 401,
-   "ms": 299,
+   "ms": 477,
    "detail": "Answering",
-   "checkedAt": "2026-11-26T08:23:53.472Z"
+   "checkedAt": "2026-11-26T08:28:44.019Z"
   },
   {
    "id": "dashboard",
@@ -66,9 +66,9 @@
    "every": "run",
    "status": "up",
    "httpStatus": 302,
-   "ms": 335,
+   "ms": 821,
    "detail": "Answering",
-   "checkedAt": "2026-11-26T08:23:53.509Z"
+   "checkedAt": "2026-11-26T08:28:44.364Z"
   },
   {
    "id": "mcp",
@@ -77,8 +77,8 @@
    "every": "run",
    "status": "down",
    "detail": "The address was not found",
-   "ms": 76,
-   "checkedAt": "2026-11-26T08:23:53.250Z"
+   "ms": 472,
+   "checkedAt": "2026-11-26T08:28:44.015Z"
   },
   {
    "id": "registry",
@@ -2498,6 +2498,20 @@
   },
   {
    "at": "2026-11-26T08:23:53.627Z",
+   "s": {
+    "apps": "u",
+    "test-read": "u",
+    "id": "u",
+    "docs": "u",
+    "signin-clients": "u",
+    "dashboard": "u",
+    "mcp": "d",
+    "registry": "d",
+    "webhook-lag": "x"
+   }
+  },
+  {
+   "at": "2026-11-26T08:28:44.618Z",
    "s": {
     "apps": "u",
     "test-read": "u",
