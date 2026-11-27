@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-27T02:08:51.842Z",
+ "generatedAt": "2026-11-27T02:13:43.962Z",
  "intervalMinutes": 5,
  "staleAfterMinutes": 20,
  "checks": [
@@ -11,9 +11,9 @@
    "every": "run",
    "status": "up",
    "httpStatus": 200,
-   "ms": 91,
+   "ms": 223,
    "detail": "Answering",
-   "checkedAt": "2026-11-27T02:08:51.105Z"
+   "checkedAt": "2026-11-27T02:13:43.474Z"
   },
   {
    "id": "test-read",
@@ -22,9 +22,9 @@
    "every": "run",
    "status": "up",
    "httpStatus": 200,
-   "ms": 198,
+   "ms": 306,
    "detail": "Answering",
-   "checkedAt": "2026-11-27T02:08:51.236Z"
+   "checkedAt": "2026-11-27T02:13:43.591Z"
   },
   {
    "id": "id",
@@ -33,9 +33,9 @@
    "every": "run",
    "status": "up",
    "httpStatus": 200,
-   "ms": 81,
+   "ms": 190,
    "detail": "Answering",
-   "checkedAt": "2026-11-27T02:08:51.120Z"
+   "checkedAt": "2026-11-27T02:13:43.476Z"
   },
   {
    "id": "docs",
@@ -44,9 +44,9 @@
    "every": "run",
    "status": "up",
    "httpStatus": 200,
-   "ms": 802,
+   "ms": 675,
    "detail": "Answering",
-   "checkedAt": "2026-11-27T02:08:51.842Z"
+   "checkedAt": "2026-11-27T02:13:43.962Z"
   },
   {
    "id": "signin-clients",
@@ -55,9 +55,9 @@
    "every": "run",
    "status": "up",
    "httpStatus": 401,
-   "ms": 63,
+   "ms": 181,
    "detail": "Answering",
-   "checkedAt": "2026-11-27T02:08:51.104Z"
+   "checkedAt": "2026-11-27T02:13:43.469Z"
   },
   {
    "id": "dashboard",
@@ -66,9 +66,9 @@
    "every": "run",
    "status": "up",
    "httpStatus": 302,
-   "ms": 273,
+   "ms": 369,
    "detail": "Answering",
-   "checkedAt": "2026-11-27T02:08:51.315Z"
+   "checkedAt": "2026-11-27T02:13:43.659Z"
   },
   {
    "id": "mcp",
@@ -77,8 +77,8 @@
    "every": "run",
    "status": "down",
    "detail": "The address was not found",
-   "ms": 24,
-   "checkedAt": "2026-11-27T02:08:51.066Z"
+   "ms": 185,
+   "checkedAt": "2026-11-27T02:13:43.475Z"
   },
   {
    "id": "registry",
@@ -102,20 +102,6 @@
   }
  ],
  "history": [
-  {
-   "at": "2026-11-26T02:19:21.200Z",
-   "s": {
-    "apps": "u",
-    "test-read": "u",
-    "id": "u",
-    "docs": "u",
-    "signin-clients": "u",
-    "dashboard": "u",
-    "mcp": "d",
-    "registry": "d",
-    "webhook-lag": "x"
-   }
-  },
   {
    "at": "2026-11-26T02:24:17.709Z",
    "s": {
@@ -4122,6 +4108,20 @@
   },
   {
    "at": "2026-11-27T02:08:51.842Z",
+   "s": {
+    "apps": "u",
+    "test-read": "u",
+    "id": "u",
+    "docs": "u",
+    "signin-clients": "u",
+    "dashboard": "u",
+    "mcp": "d",
+    "registry": "d",
+    "webhook-lag": "x"
+   }
+  },
+  {
+   "at": "2026-11-27T02:13:43.962Z",
    "s": {
     "apps": "u",
     "test-read": "u",
